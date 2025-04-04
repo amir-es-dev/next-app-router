@@ -1,5 +1,5 @@
 "use client";
-import { CldUploadWidget, CldImage } from "next-cloudinary";
+// import { CldUploadWidget, CldImage } from "next-cloudinary";
 import { useState } from "react";
 
 interface CloudinaryInfo {
@@ -11,7 +11,7 @@ const UploadPage = () => {
 
   return (
     <>
-      {publicId && (
+      {/* {publicId && (
         <CldImage src={publicId} width={270} height={180} alt="Mosh image" />
       )}
       <CldUploadWidget
@@ -27,7 +27,7 @@ const UploadPage = () => {
             Upload
           </button>
         )}
-      </CldUploadWidget>
+      </CldUploadWidget> */}
     </>
   );
 };
