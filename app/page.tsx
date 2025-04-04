@@ -10,7 +10,7 @@ export default async function Home() {
   return (
     <main>
       {/* <Image src={coffee} alt="coffee" /> */}
-      <Image
+      {/* <Image
         // src="https://bit.ly/react-cover"
         src="https://cdn.filestackcontent.com/bLy3JtIoQ8y8PDs4tFem"
         alt="coffee"
@@ -19,10 +19,10 @@ export default async function Home() {
         // style={{ objectFit: "cover" }}
         // width={300}
         // height={170}
-      />
-      {/* <h1>Hello {session && <span>{session.user?.name}</span>}</h1>
+      /> */}
+      <h1>Hello {session && <span>{session.user?.name}</span>}</h1>
       <Link href="/users">Users</Link>
-      <ProductCard /> */}
+      <ProductCard />
     </main>
   );
 }
